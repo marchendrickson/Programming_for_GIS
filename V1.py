@@ -10,7 +10,8 @@ from arcpy.sa import*	  #This checks out the Spatial Analyst package in Arc
 import time				   #So we can time how long the process takes
 import os				   #This will import the os package check it out: http://www.pythonforbeginners.com/os/pythons-os-module
 
-#https://community.esri.com/thread/118848
+#https://community.esri.com/thread/118848 - example script that may help
+#https://stackoverflow.com/questions/31346790/unzip-all-zipped-files-in-a-folder-to-that-same-folder-using-python-2-7-5/31355555 - this is a tutorial on how to use python to unzip all folders 
 
 # Start the timer for the entire process and set up directory---------------------------
 start_time = datetime.datetime.now()
