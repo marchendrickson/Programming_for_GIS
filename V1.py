@@ -41,7 +41,7 @@ for raster in IMGList:
 		print "You do not need to convert any of your rasters"
 	else:
 		arcpy.CopyRaster_management(raster, raster, "", "", "", "", "", "16_BIT_UNSIGNED")
-'''
+
 #This step will mosaic the images you have in your directory-----------------------------
 
 arcpy.MosaicToNewRaster_management(IMGList, temp_workspace, "IMG_Mosaic.tif",  pixel_type="32_BIT_FLOAT", cellsize="", number_of_bands="1", mosaic_method="", mosaic_colormap_mode="MATCH")
@@ -102,7 +102,7 @@ arcpy.WorkspaceToRasterCatalog_managment("..\Final_Proj", "..\Final_Proj\basemap
 
 
 # end time and report it
-'''
+
 print ('------------------------------------------')
 print "Script finished processing at:"
 print datetime.datetime.now()
