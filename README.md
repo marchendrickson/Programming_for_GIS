@@ -10,4 +10,5 @@ I usually use either Earth Explorer or WebGIS
 
 ### 4. Either Change the environment settings in the first couple of lines or name your folder Final_Proj
 
+### 5. Let it run. It may take a long time but we found it cut the processing time by about triple if everything in the environment settings is right.
 
