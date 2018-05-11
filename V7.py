@@ -1,4 +1,4 @@
-#Authors: Marc Hendrickson, Bart Bauer, Nathaniel Geis
+#Authors: Marc Hendrickson
 #Final Assignment for Programming for GIS
 #May 2018
 
