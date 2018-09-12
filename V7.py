@@ -1,6 +1,5 @@
 #Authors: Marc Hendrickson
-#Final Assignment for Programming for GIS
-#May 2018
+#July 2018
 
 #import packages-------------------------------------------------------------------------
 
@@ -129,10 +128,10 @@ if not arcpy.Exists(GDB):
 
 print "Geodatabase is made!"
 
-
+'''
 catalog = arcpy.CreateRasterCatalog_management( GDB, "raster")
 
-'''
+
 
 #Import Rasters and Shapefile into GDB
 arcpy.WorkspaceToRasterCatalog_managment("..\Final_Proj", "..\Final_Proj\basemap.gdb\raster")
